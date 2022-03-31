@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripeIntegration", "StripeIntegration\StripeIntegration.csproj", "{19A3B0F6-1367-467F-B39B-D1668FAFC0B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{91C28B50-DFFE-4224-BAE9-3C44104ABFD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{52F26F5D-5EB3-4537-BA46-58FDC3D42C8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{8E270EE7-DAF9-4871-817E-4D014961B144}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{47C2407A-5403-4242-8E07-FED4C60AF6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeIntegration.Tests", "StripeIntegration.Tests\StripeIntegration.Tests.csproj", "{0B5E58AB-7C42-43C0-9473-3E2AA725FA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C968FFC9-DE6A-4277-AE26-F805B18BC948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19A3B0F6-1367-467F-B39B-D1668FAFC0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A3B0F6-1367-467F-B39B-D1668FAFC0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A3B0F6-1367-467F-B39B-D1668FAFC0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A3B0F6-1367-467F-B39B-D1668FAFC0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C28B50-DFFE-4224-BAE9-3C44104ABFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C28B50-DFFE-4224-BAE9-3C44104ABFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C28B50-DFFE-4224-BAE9-3C44104ABFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C28B50-DFFE-4224-BAE9-3C44104ABFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F26F5D-5EB3-4537-BA46-58FDC3D42C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F26F5D-5EB3-4537-BA46-58FDC3D42C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F26F5D-5EB3-4537-BA46-58FDC3D42C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F26F5D-5EB3-4537-BA46-58FDC3D42C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E270EE7-DAF9-4871-817E-4D014961B144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E270EE7-DAF9-4871-817E-4D014961B144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E270EE7-DAF9-4871-817E-4D014961B144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E270EE7-DAF9-4871-817E-4D014961B144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C2407A-5403-4242-8E07-FED4C60AF6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C2407A-5403-4242-8E07-FED4C60AF6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C2407A-5403-4242-8E07-FED4C60AF6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C2407A-5403-4242-8E07-FED4C60AF6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5E58AB-7C42-43C0-9473-3E2AA725FA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5E58AB-7C42-43C0-9473-3E2AA725FA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5E58AB-7C42-43C0-9473-3E2AA725FA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5E58AB-7C42-43C0-9473-3E2AA725FA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C968FFC9-DE6A-4277-AE26-F805B18BC948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C968FFC9-DE6A-4277-AE26-F805B18BC948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C968FFC9-DE6A-4277-AE26-F805B18BC948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C968FFC9-DE6A-4277-AE26-F805B18BC948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABE76E67-40E5-4BFB-9B0E-C5A32FBBA8DE}
+	EndGlobalSection
+EndGlobal
